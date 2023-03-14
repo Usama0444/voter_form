@@ -3,7 +3,6 @@ import 'dart:io';
 import 'package:dart_ipify/dart_ipify.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:voter_form/Admin/AdminWebPage.dart';
 import 'package:voter_form/UserApp/Mobile.dart';
 
 import 'UserApp/WebPage.dart';
@@ -30,7 +29,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: AdminWebDesign(),
+      home: HomePage(),
     );
   }
 }
