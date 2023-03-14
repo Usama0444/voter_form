@@ -474,7 +474,7 @@ class _AdminMobileDesignState extends State<AdminMobileDesign> {
                     ],
                   ),
                   SizedBox(
-                    height: 200,
+                    height: 300,
                     width: double.infinity,
                     child: ListView.builder(
                         scrollDirection: Axis.vertical,
@@ -513,7 +513,7 @@ class _AdminMobileDesignState extends State<AdminMobileDesign> {
                     ],
                   ),
                   SizedBox(
-                    height: 200,
+                    height: 300,
                     width: double.infinity,
                     child: ListView.builder(
                         scrollDirection: Axis.vertical,
@@ -551,7 +551,7 @@ class _AdminMobileDesignState extends State<AdminMobileDesign> {
                     ],
                   ),
                   SizedBox(
-                    height: 200,
+                    height: 300,
                     width: double.infinity,
                     child: ListView.builder(
                         scrollDirection: Axis.vertical,
@@ -589,7 +589,7 @@ class _AdminMobileDesignState extends State<AdminMobileDesign> {
                     ],
                   ),
                   SizedBox(
-                    height: 200,
+                    height: 300,
                     width: double.infinity,
                     child: ListView.builder(
                         scrollDirection: Axis.vertical,
@@ -627,7 +627,7 @@ class _AdminMobileDesignState extends State<AdminMobileDesign> {
                     ],
                   ),
                   SizedBox(
-                    height: 200,
+                    height: 300,
                     width: double.infinity,
                     child: ListView.builder(
                         scrollDirection: Axis.vertical,
@@ -665,7 +665,7 @@ class _AdminMobileDesignState extends State<AdminMobileDesign> {
                     ],
                   ),
                   SizedBox(
-                    height: 200,
+                    height: 300,
                     width: double.infinity,
                     child: ListView.builder(
                         scrollDirection: Axis.vertical,
@@ -703,7 +703,7 @@ class _AdminMobileDesignState extends State<AdminMobileDesign> {
                     ],
                   ),
                   SizedBox(
-                    height: 200,
+                    height: 300,
                     width: double.infinity,
                     child: ListView.builder(
                         scrollDirection: Axis.vertical,
@@ -741,7 +741,7 @@ class _AdminMobileDesignState extends State<AdminMobileDesign> {
                     ],
                   ),
                   SizedBox(
-                    height: 200,
+                    height: 300,
                     width: double.infinity,
                     child: ListView.builder(
                         scrollDirection: Axis.vertical,
@@ -779,7 +779,7 @@ class _AdminMobileDesignState extends State<AdminMobileDesign> {
                     ],
                   ),
                   SizedBox(
-                    height: 200,
+                    height: 300,
                     width: double.infinity,
                     child: ListView.builder(
                         scrollDirection: Axis.vertical,
@@ -817,7 +817,7 @@ class _AdminMobileDesignState extends State<AdminMobileDesign> {
                     ],
                   ),
                   SizedBox(
-                    height: 200,
+                    height: 300,
                     width: double.infinity,
                     child: ListView.builder(
                         scrollDirection: Axis.vertical,
@@ -855,7 +855,7 @@ class _AdminMobileDesignState extends State<AdminMobileDesign> {
                     ],
                   ),
                   SizedBox(
-                    height: 200,
+                    height: 300,
                     width: double.infinity,
                     child: ListView.builder(
                         scrollDirection: Axis.vertical,
@@ -893,7 +893,7 @@ class _AdminMobileDesignState extends State<AdminMobileDesign> {
                     ],
                   ),
                   SizedBox(
-                    height: 200,
+                    height: 300,
                     width: double.infinity,
                     child: ListView.builder(
                         scrollDirection: Axis.vertical,
@@ -931,7 +931,7 @@ class _AdminMobileDesignState extends State<AdminMobileDesign> {
                     ],
                   ),
                   SizedBox(
-                    height: 200,
+                    height: 300,
                     width: double.infinity,
                     child: ListView.builder(
                         scrollDirection: Axis.vertical,
@@ -969,7 +969,7 @@ class _AdminMobileDesignState extends State<AdminMobileDesign> {
                     ],
                   ),
                   SizedBox(
-                    height: 200,
+                    height: 300,
                     width: double.infinity,
                     child: ListView.builder(
                         scrollDirection: Axis.vertical,
@@ -1007,7 +1007,7 @@ class _AdminMobileDesignState extends State<AdminMobileDesign> {
                     ],
                   ),
                   SizedBox(
-                    height: 200,
+                    height: 300,
                     width: double.infinity,
                     child: ListView.builder(
                         scrollDirection: Axis.vertical,
@@ -1045,7 +1045,7 @@ class _AdminMobileDesignState extends State<AdminMobileDesign> {
                     ],
                   ),
                   SizedBox(
-                    height: 200,
+                    height: 300,
                     width: double.infinity,
                     child: ListView.builder(
                         scrollDirection: Axis.vertical,
