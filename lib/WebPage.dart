@@ -1,10 +1,8 @@
-import 'dart:io';
-
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:dart_ipify/dart_ipify.dart';
 import 'package:flutter/material.dart';
 
-import '../MyModel.dart';
+import 'MyModel.dart';
 
 class DropdownList extends StatefulWidget {
   final List<String> items;

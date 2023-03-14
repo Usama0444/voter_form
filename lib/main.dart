@@ -1,11 +1,8 @@
-import 'dart:io';
-
-import 'package:dart_ipify/dart_ipify.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:voter_form/UserApp/Mobile.dart';
 
-import 'UserApp/WebPage.dart';
+import 'Mobile.dart';
+import 'WebPage.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
