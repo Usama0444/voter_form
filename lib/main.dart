@@ -1,23 +1,18 @@
-import 'dart:io';
-
-import 'package:dart_ipify/dart_ipify.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:voter_form/Admin/AdminMobileView.dart';
-
-import 'Admin/AdminWebPage.dart';
+import 'AdminMobileView.dart';
+import 'AdminWebPage.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
       options: const FirebaseOptions(
-    apiKey: "AIzaSyAK9SnsF--lSxSbfZMYKXjsqCwEhYsahKE",
-    authDomain: "vote-74ea2.firebaseapp.com",
-    projectId: "vote-74ea2",
-    storageBucket: "vote-74ea2.appspot.com",
-    messagingSenderId: "404790869830",
-    appId: "1:404790869830:web:e575c57fe3e6e3a20d6f47",
-  ));
+          apiKey: "AIzaSyAK9SnsF--lSxSbfZMYKXjsqCwEhYsahKE",
+          authDomain: "vote-74ea2.firebaseapp.com",
+          projectId: "vote-74ea2",
+          storageBucket: "vote-74ea2.appspot.com",
+          messagingSenderId: "404790869830",
+          appId: "1:404790869830:web:e575c57fe3e6e3a20d6f47"));
   runApp(const MyApp());
 }
 
