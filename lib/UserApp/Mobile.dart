@@ -241,7 +241,7 @@ class _MobileViewState extends State<MobileView> {
 
   var deviceIp;
   var userCollection = FirebaseFirestore.instance.collection('vote');
-
+  var hoursLeft;
   Future<bool> checkAlreadySubmitToday(ip) async {
     List<MyModel> lst = [];
     var data = await userCollection.where('user', isEqualTo: '$ip').get();
@@ -252,7 +252,9 @@ class _MobileViewState extends State<MobileView> {
       lst.sort((a, b) => b.createdAt.compareTo(a.createdAt));
       Timestamp firestoreTimestamp = lst[0].createdAt;
       DateTime dateTime = firestoreTimestamp.toDate();
-      if (dateTime.difference(DateTime.now()).inHours >= 24) {
+      hoursLeft = DateTime.now().difference(dateTime).inHours;
+      setState(() {});
+      if (DateTime.now().difference(dateTime).inHours >= 24) {
         return true;
       } else {
         return false;
@@ -299,8 +301,8 @@ class _MobileViewState extends State<MobileView> {
         });
       } else {
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(
-            content: Text('Not Allowed,will allow after 24 hours!'),
+          SnackBar(
+            content: Text('Not Allowed,will allow after $hoursLeft hours!'),
           ),
         );
       }
