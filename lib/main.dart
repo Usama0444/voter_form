@@ -3,9 +3,9 @@ import 'dart:io';
 import 'package:dart_ipify/dart_ipify.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:voter_form/UserApp/Mobile.dart';
+import 'package:voter_form/Admin/AdminMobileView.dart';
 
-import 'UserApp/WebPage.dart';
+import 'Admin/AdminWebPage.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -45,9 +45,9 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     var device = MediaQuery.of(context).size.width;
     if (device > 600) {
-      return WebDesign();
+      return AdminWebDesign();
     } else {
-      return MobileView();
+      return AdminMobileDesign();
     }
   }
 }
